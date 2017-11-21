@@ -1,4 +1,5 @@
 ///<reference path="../node_modules/grafana-sdk-mocks/app/headers/common.d.ts" />
+///<reference path="./common_heatmap.d.ts" />
 System.register(['lodash', 'jquery', 'moment', 'd3', 'app/core/utils/kbn', 'app/core/core', 'app/core/utils/ticks', './heatmap_tooltip', './heatmap_data_converter', './color_scale'], function(exports_1) {
     var lodash_1, jquery_1, moment_1, d3_1, kbn_1, core_1, ticks_1, heatmap_tooltip_1, heatmap_data_converter_1, color_scale_1;
     var MIN_CARD_SIZE, CARD_PADDING, CARD_ROUND, DATA_RANGE_WIDING_FACTOR, DEFAULT_X_TICK_SIZE_PX, DEFAULT_Y_TICK_SIZE_PX, X_AXIS_TICK_PADDING, Y_AXIS_TICK_PADDING, MIN_SELECTION_WIDTH;

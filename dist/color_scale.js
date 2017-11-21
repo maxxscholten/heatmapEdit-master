@@ -1,6 +1,6 @@
 System.register(['d3'], function(exports_1) {
     var d3_1;
-    //import * as d3ScaleChromatic from 'd3-scale-chromatic';
+    ///import * as d3ScaleChromatic from 'd3-scale-chromatic';
     function getColorScale(colorScheme, lightTheme, maxValue, minValue) {
         if (minValue === void 0) { minValue = 0; }
         //let colorInterpolator = d3ScaleChromatic[colorScheme.value];

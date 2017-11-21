@@ -1,1 +1,1 @@
-readme
+Externalized Heatmap plugin for Grafana.

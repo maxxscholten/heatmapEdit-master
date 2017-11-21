@@ -1,6 +1,5 @@
-
 import d3 from 'd3';
-//import * as d3ScaleChromatic from 'd3-scale-chromatic';
+///import * as d3ScaleChromatic from 'd3-scale-chromatic';
 
 export function getColorScale(colorScheme: any, lightTheme: boolean, maxValue: number, minValue = 0): (d: any) => any {
   //let colorInterpolator = d3ScaleChromatic[colorScheme.value];

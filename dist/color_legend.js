@@ -1,4 +1,5 @@
 ///<reference path="../node_modules/grafana-sdk-mocks/app/headers/common.d.ts" />
+///<reference path="./common_heatmap.d.ts" />
 System.register(['angular', 'lodash', 'jquery', 'd3', 'app/core/core', 'app/core/utils/ticks', './color_scale'], function(exports_1) {
     var angular_1, lodash_1, jquery_1, d3_1, core_1, ticks_1, color_scale_1;
     var module;
